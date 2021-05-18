@@ -4,7 +4,7 @@
 
     Modificação: DD/MM/AAAA
 
-    @author: edvonaldo
+    @author: edvonaldo, ícaro, júlia
 """
 
 import os
@@ -17,6 +17,8 @@ import datetime as dt
 import matplotlib.pyplot as plt
 
 
-#abono_2021 = pd.read_csv(r'datasets/ABONOP_012021.csv', sep=";")
+abono_2021 = pd.read_csv(r'datasets/ABONOP_012021.csv', sep=";")
 aposentados_nov_2020 = pd.read_csv(r'datasets/APOSENTADOS_112020_FULL.csv', sep=";")
-# = pd.read_csv(r'datasets/annual.csv')
+
+#%%
+print(abono_2021.describe())
